@@ -1,0 +1,43 @@
+.toDo {
+    .toDoTable {
+        background-color: white;
+        width: 40em;
+        margin-right: 2.2em;
+        display: flex;
+        justify-content: space-around;
+    }
+    .taskTitle {
+        width: 5em;
+    }
+    .taskState {
+        margin-top: .8em;
+        width: 7em;
+        display: grid;
+        color: black;
+        height: 1.8em;
+        place-items: center;
+        border-radius: 10px;
+    }
+    .icons {
+        display: flex;
+        .selector {
+            width: 8em;
+            margin-top: .5em;
+            background: white;
+            border: none;
+        }
+        .updateState-btn,
+        .trash-btn {
+            margin-bottom: .5em;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    // responsive
+    @media (max-width: 700px) {
+        .toDoTable {
+            width: 20em;
+        }
+    }
+}

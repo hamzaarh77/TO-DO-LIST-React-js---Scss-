@@ -1,0 +1,4 @@
+- une barre de recherche qui permet d'accéder facilement a une des taches figurante sur la list
+- Ajouter des tâches
+- Modifier les états des tâches (en cours|fait| a faire|en retard)
+- Supprimer des tâches
